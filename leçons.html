@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leçons - Apprentissage des Langues</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Leçon du Jour</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Retour à l'accueil</a></li>
+                <li><a href="mots-appris.html">Mots appris</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="lesson"></div>
+        <div id="score"></div>
+        <button id="verifyBtn" onclick="verifyAnswers()">Vérifier les réponses</button>
+        <button id="nextLessonBtn" onclick="nextLesson()" disabled>Leçon suivante</button>
+    </main>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
